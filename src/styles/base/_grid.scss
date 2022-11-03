@@ -1,0 +1,12 @@
+// basic
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: $gap-size;
+  padding-right: $gap-size;
+
+  @media (min-width: $breakpoint-lg) {
+    max-width: 1200px;
+  }
+}

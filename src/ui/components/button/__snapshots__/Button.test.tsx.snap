@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button basic primary renders correctly 1`] = `
+<button
+  className="btn btn--primary"
+  disabled={false}
+  type="button"
+>
+  Hello
+</button>
+`;
+
+exports[`Button block renders correctly 1`] = `
+<button
+  className="btn btn--primary btn--block"
+  disabled={false}
+  type="button"
+>
+  Hello
+</button>
+`;
+
+exports[`Button disabled renders correctly 1`] = `
+<button
+  className="btn btn--primary btn--disabled"
+  disabled={true}
+  type="button"
+>
+  Hello
+</button>
+`;
+
+exports[`Button outlined renders correctly 1`] = `
+<button
+  className="btn btn--primary btn--outlined"
+  disabled={false}
+  type="button"
+>
+  Hello
+</button>
+`;
+
+exports[`Button size renders correctly 1`] = `
+<button
+  className="btn btn--lg btn--primary"
+  disabled={false}
+  type="button"
+>
+  Hello
+</button>
+`;
+
+exports[`Button variant secondary renders correctly 1`] = `
+<button
+  className="btn btn--secondary"
+  disabled={false}
+  type="button"
+>
+  Hello
+</button>
+`;
