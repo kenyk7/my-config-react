@@ -1,4 +1,4 @@
-# React N5
+# My Config React
 
 Create a new project with Vite
 
