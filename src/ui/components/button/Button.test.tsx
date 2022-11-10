@@ -1,5 +1,5 @@
 import renderer from 'react-test-renderer';
-import { Button } from '.';
+import { Button } from './Button';
 
 it('Button basic primary renders correctly', () => {
   const component = renderer.create(<Button>Hello</Button>);

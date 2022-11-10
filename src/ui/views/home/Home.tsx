@@ -1,5 +1,5 @@
 import reactLogo from '~/assets/react.svg';
-import { Counter } from '~/ui/features/Counter/Counter';
+import { Counter } from '~/ui/features/counter';
 
 import './Home.css';
 

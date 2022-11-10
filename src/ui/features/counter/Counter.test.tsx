@@ -1,6 +1,6 @@
 import { render, fireEvent, getByTestId } from '@testing-library/react';
 
-import Counter from './Counter';
+import { Counter } from './Counter';
 
 describe('Counter', () => {
   let counter: HTMLElement;
