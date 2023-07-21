@@ -18,7 +18,15 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint", "import", "jsx-a11y", "react-hooks", "prettier"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "simple-import-sort",
+    "import",
+    "jsx-a11y",
+    "react-hooks",
+    "prettier"
+  ],
   "rules": {
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-unused-vars": [
@@ -38,7 +46,9 @@
     "import/extensions": [
       "error",
       "never",
-      {"svg": "always"}
+      {
+        "svg": "always"
+      }
     ],
     "import/no-unresolved": "off",
     "import/prefer-default-export": "off",
@@ -46,7 +56,13 @@
     "react/jsx-props-no-spreading": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-no-target-blank": "off"
+    "react/jsx-no-target-blank": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-duplicates": "error",
+    "import/no-extraneous-dependencies": "off"
   },
   "settings": {
     "react": {

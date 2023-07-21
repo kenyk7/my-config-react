@@ -1,7 +1,7 @@
+import './Home.css';
+
 import reactLogo from '~/assets/react.svg';
 import { Counter } from '~/ui/features/Counter/Counter';
-
-import './Home.css';
 
 export function Home() {
   return (

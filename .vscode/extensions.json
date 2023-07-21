@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "steoates.autoimport",
+    "EditorConfig.EditorConfig",
+    "syler.sass-indented",
+    "dbaeumer.vscode-eslint",
+    "rvest.vs-code-prettier-eslint"
+  ]
+}
