@@ -1,9 +1,18 @@
 import './Home.css';
 
-import reactLogo from '~/assets/react.svg';
-import { Counter } from '~/ui/features/counter';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+
+import reactLogo from '@/assets/react.svg';
+import { Counter } from '@/ui/features/counter';
 
 export function Home() {
+  const hello = 'Hello World!';
+
+  useEffect(() => {
+    console.log('Home loaded');
+  }, []);
+
   return (
     <div style={{ display: 'flex', alignItems: 'center', minHeight: '100vh' }}>
       <div className="container text-center">
@@ -21,6 +30,9 @@ export function Home() {
           <p>
             Edit <code>src/ui/Home.tsx</code> and save to test HMR
           </p>
+        </div>
+        <div>
+          <Link to="about">About page</Link>
         </div>
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
