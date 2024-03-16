@@ -1,0 +1,14 @@
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+@import 'bootstrap/scss/variables-dark';
+
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-dark-mode: false;
+$enable-gradients: false;
+
+// $theme-colors: map-remove($theme-colors,
+//     'info',
+//     'light',
+//     'dark',
+//   );

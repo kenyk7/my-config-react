@@ -1,6 +1,5 @@
 import { useState } from 'react';
-
-import { Button } from '@/ui/components/button';
+import Button from 'react-bootstrap/esm/Button';
 
 export function Counter() {
   const [count, setCount] = useState(0);

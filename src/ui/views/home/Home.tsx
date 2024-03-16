@@ -1,6 +1,7 @@
 import './Home.css';
 
 import { useEffect } from 'react';
+import Button from 'react-bootstrap/esm/Button';
 import { Link } from 'react-router-dom';
 
 import reactLogo from '@/assets/react.svg';
@@ -26,7 +27,9 @@ export function Home() {
         </div>
         <h1>Vite + React</h1>
         <div className="card">
-          <Counter />
+          <div>
+            <Counter />
+          </div>
           <p>
             Edit <code>src/ui/Home.tsx</code> and save to test HMR
           </p>
@@ -37,6 +40,17 @@ export function Home() {
         <p className="read-the-docs">
           Click on the Vite and React logos to learn more
         </p>
+        <div className="grid">
+          <Button variant="primary">Primary</Button>
+          <Button variant="secondary">Secondary</Button>
+          <Button variant="success">Success</Button>
+          <Button variant="warning">Warning</Button>
+          <Button variant="danger">Danger</Button>
+          <Button variant="info">Info</Button>
+          <Button variant="light">Light</Button>
+          <Button variant="dark">Dark</Button>
+          <Button variant="link">Link</Button>
+        </div>
       </div>
     </div>
   );

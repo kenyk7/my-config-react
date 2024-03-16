@@ -1,14 +1,10 @@
-$font-size-base: 1rem;
-$font-family-base: Inter, Avenir, Helvetica, Arial, sans-serif;
+// Custom vars bootstrap
+// $font-family-base: sans-serif;
+$line-height-base: 1.4;
+$body-bg: #fff;
+$body-color: #000;
 
-$brand-color-primary: #0c7bc4;
-$brand-color-secondary: #eeb014;
+$primary: #024DDF; // #024DDF
 
-$body-background: #fefefe;
-$body-color: #222;
-
-// project breakpoints
-$gap-size: 20px;
-$breakpoint-sm: 768px;
-$breakpoint-md: 1024px;
-$breakpoint-lg: 1280px;
+$input-btn-padding-y: 8px;
+$input-btn-padding-x: 16px;
