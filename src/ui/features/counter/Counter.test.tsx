@@ -1,4 +1,5 @@
-import { fireEvent, getByTestId, render } from '@testing-library/react';
+/* eslint-disable sonarjs/no-duplicate-string */
+import { fireEvent, render, screen } from '@testing-library/react';
 
 import { Counter } from './Counter';
 
@@ -11,13 +12,11 @@ describe('Counter', () => {
   });
 
   it('Counter loads with initial state of 0', () => {
-    const countValue = getByTestId(counter, 'btnCounter');
-    expect(countValue.textContent).toBe('count is 0');
+    expect(counter.textContent).toBe('count is 0');
   });
 
   it('Counter get value when click', () => {
-    const countValue = getByTestId(counter, 'btnCounter');
-    fireEvent.click(countValue);
-    expect(countValue.textContent).toBe('count is 1');
+    fireEvent.click(screen.getByText('count is 0'));
+    expect(counter.textContent).toBe('count is 1');
   });
 });

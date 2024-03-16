@@ -10,7 +10,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "jest",
-    "test:covegare": "jest --coverage",
+    "test:coverage": "jest --coverage",
     "lint": "eslint src/**/*.ts[x]",
     "format": "prettier src/**/*.ts src/**/*.tsx --write"
   },
@@ -68,7 +68,7 @@
       "!src/**/*.d.ts"
     ],
     "moduleNameMapper": {
-      "^~/(.*)$": "<rootDir>/src/$1"
+      "^@/(.*)$": "<rootDir>/src/$1"
     }
   }
 }
