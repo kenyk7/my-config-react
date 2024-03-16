@@ -1,4 +1,6 @@
 {
+  "root": true,
+  "env": { "browser": true, "es2020": true },
   "extends": [
     "airbnb",
     "plugin:@typescript-eslint/recommended",
@@ -6,6 +8,7 @@
     "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:security/recommended",
     "plugin:sonarjs/recommended",
     "prettier"
@@ -25,9 +28,13 @@
     "import",
     "jsx-a11y",
     "react-hooks",
-    "prettier"
+    "react-refresh"
   ],
   "rules": {
+    "react-refresh/only-export-components": [
+      "warn",
+      { "allowConstantExport": true }
+    ],
     "@typescript-eslint/no-explicit-any": "error",
     "@typescript-eslint/no-unused-vars": [
       "warn",
