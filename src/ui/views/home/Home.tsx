@@ -1,19 +1,12 @@
 import './Home.css';
 
-import { useEffect } from 'react';
-import Button from 'react-bootstrap/esm/Button';
+import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import reactLogo from '@/assets/react.svg';
 import { Counter } from '@/ui/features/counter';
 
 export function Home() {
-  const hello = 'Hello World!';
-
-  useEffect(() => {
-    console.log('Home loaded');
-  }, []);
-
   return (
     <div style={{ display: 'flex', alignItems: 'center', minHeight: '100vh' }}>
       <div className="container text-center">
