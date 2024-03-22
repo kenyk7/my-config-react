@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 // import eslintPlugin from 'vite-plugin-eslint';
 import eslintPlugin from '@nabla/vite-plugin-eslint';
 import react from '@vitejs/plugin-react';
